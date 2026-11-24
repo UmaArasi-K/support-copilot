@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Tools and editors
+.pytest_cache/
+.ruff_cache/
+.vscode/
+.idea/
+
+# Local vector store
+chroma_db/
