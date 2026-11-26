@@ -22,3 +22,9 @@ jobs:
 
       - name: Lint Python files
         run: flake8 . --max-line-length=120 --exclude=venv,.venv,env
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Run tests
+        run: python -m pytest -q

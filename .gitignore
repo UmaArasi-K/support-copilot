@@ -17,3 +17,5 @@ venv/
 
 # Local vector store
 chroma_db/
+# Golden set with tweet text (never commit)
+data/golden_with_text.jsonl
